@@ -3,13 +3,13 @@
 CREATE DATABASE todolist;
 \c todolist
 CREATE TABLE todos(
-todolist(# id SERIAL PRIMARY KEY,
-todolist(# title VARCHAR(255),
-todolist(# details VARCHAR,
-todolist(# priority INTEGER DEFAULT 1,
-todolist(# created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-todolist(# completed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-todolist(# );
+id SERIAL PRIMARY KEY,
+title VARCHAR(255),
+details VARCHAR,
+priority INTEGER DEFAULT 1,
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+completed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
 
 
 //Write INSERT statements to insert five todos into this table, with one of them completed.//
